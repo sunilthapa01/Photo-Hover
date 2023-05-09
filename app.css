@@ -1,0 +1,23 @@
+ body {
+     background-color: #d62828;
+ }
+ /*  
+ #Trs:hover {
+     border-color: #00ad26c7;
+     color: olivedrab;
+     box-shadow: 0 0.5em 0.5em -0.1em #33ff00;
+     transform: translateY(-0.25em);
+     cursor: pointer;
+ } */
+ 
+ #Trs {
+     box-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000;
+     border: 2px solid black;
+     transition: all 0.25s;
+ }
+ 
+ #Trs:hover {
+     transform: translateY(0.25em);
+     transition: 2px;
+     cursor: pointer;
+ }
